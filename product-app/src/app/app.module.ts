@@ -10,12 +10,14 @@ import { AuthInterceptorService } from './services/auth-interceptor.service';
 import { ErrorInterceptorService } from './services/error-interceptor.service';
 import { SharedModule } from './shared.module';
 import { ProfileManagerComponent } from './modules/profile-manager/profile-manager.component';
+import { ProductsComponent } from './modules/products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     ProfileManagerComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
